@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Teroids" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Teroids" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="/home/jason/Files/Code/c++/Teroids" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Teroids" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="/home/jason/Files/Code/c++/Teroids" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="Optimized">
+				<Option output="bin/Optimized/Teroids" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="/home/jason/Files/Code/c++/Teroids" />
+				<Option object_output="obj/Optimized" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Compiler>
+					<Add option="-O3" />
+					<Add option="-O2" />
+					<Add option="-O1" />
+					<Add option="-O" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="`sdl-config --cflags`" />
+			<Add directory="/home/jason/Files/Code/c++/Teroids/scr" />
+		</Compiler>
+		<ResourceCompiler>
+			<Add directory="/home/jason/Files/Code/c++/Teroids/scr/" />
+		</ResourceCompiler>
+		<Linker>
+			<Add option="-lSDL_image" />
+			<Add option="-lSDL_ttf" />
+			<Add option="-lSDL_mixer" />
+			<Add option="-lSDL_gfx" />
+			<Add option="`sdl-config --libs`" />
+			<Add directory="/home/jason/Files/Code/c++/Teroids/scr" />
+			<Add directory="obj/Debug/scr" />
+		</Linker>
+		<Unit filename="scr/collision/collision.cpp" />
+		<Unit filename="scr/collision/collision.h" />
+		<Unit filename="scr/engine/engine.cpp" />
+		<Unit filename="scr/engine/engine.h" />
+		<Unit filename="scr/error/error.cpp" />
+		<Unit filename="scr/error/error.h" />
+		<Unit filename="scr/main.cpp">
+			<Option weight="49" />
+		</Unit>
+		<Unit filename="scr/map/map.cpp" />
+		<Unit filename="scr/map/map.h" />
+		<Unit filename="scr/math/random.cpp" />
+		<Unit filename="scr/math/random.h" />
+		<Unit filename="scr/math/tdmath.cpp" />
+		<Unit filename="scr/math/tdmath.h" />
+		<Unit filename="scr/object/obj_gameobject.cpp" />
+		<Unit filename="scr/object/obj_gameobject.h" />
+		<Unit filename="scr/object/objects.cpp" />
+		<Unit filename="scr/object/objects.h" />
+		<Unit filename="scr/render/render.cpp" />
+		<Unit filename="scr/render/render.h" />
+		<Unit filename="scr/resource/resources.cpp" />
+		<Unit filename="scr/resource/resources.h" />
+		<Unit filename="scr/sdl_gfx/SDL_framerate.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="scr/sdl_gfx/SDL_framerate.h" />
+		<Unit filename="scr/sdl_gfx/SDL_gfxBlitFunc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="scr/sdl_gfx/SDL_gfxBlitFunc.h" />
+		<Unit filename="scr/sdl_gfx/SDL_gfxPrimitives.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="scr/sdl_gfx/SDL_gfxPrimitives.h" />
+		<Unit filename="scr/sdl_gfx/SDL_gfxPrimitives_font.h" />
+		<Unit filename="scr/sdl_gfx/SDL_imageFilter.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="scr/sdl_gfx/SDL_imageFilter.h" />
+		<Unit filename="scr/sdl_gfx/SDL_rotozoom.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="scr/sdl_gfx/SDL_rotozoom.h" />
+		<Unit filename="scr/settings.h" />
+		<Unit filename="scr/sound/sound.cpp" />
+		<Unit filename="scr/sound/sound.h" />
+		<Unit filename="scr/string/string.cpp" />
+		<Unit filename="scr/string/string.h" />
+		<Unit filename="scr/version.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+			<AutoVersioning>
+				<Scheme minor_max="10" build_max="0" rev_max="0" rev_rand_max="10" build_times_to_increment_minor="100" />
+				<Settings autoincrement="1" date_declarations="1" do_auto_increment="0" ask_to_increment="0" language="C++" svn="0" svn_directory="" header_path="version.h" />
+				<Changes_Log show_changes_editor="0" app_title="released version %M.%m.%b of %p" changeslog_path="ChangesLog.txt" />
+				<Code header_guard="VERSION_H" namespace="AutoVersion" prefix="" />
+			</AutoVersioning>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

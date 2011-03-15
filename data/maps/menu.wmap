@@ -1,0 +1,20 @@
+/*Simple Test Map By Jason White On Dec 13 2010
+ *
+ *	     White's Map Format
+ *		Version 1.0
+ *
+ *	wwsoft.co.cc / wwsoft.ath.cx
+ * Jason White < whitewaterssoftwareinfo@gmail.com>
+ *
+ */
+/*Settings*/
+$,name,Start Menu;
+$,author,Jason White;
+$,description,The start menu for this game;
+$,difficulty,easy;
+$,date,01-15-2011;
+$,size,00640,00480;
+/*background*/
+4,tile,00000,00000,00000,00015;
+3,start_menu,00000,00000,00000;
+

@@ -1,0 +1,905 @@
+# depslib dependency file v1.0
+1266773369 source:/home/jason/Desktop/c++/Teroids/engin.cpp
+	<SDL.h>
+	"SDL_image.h"
+	"SDL_ttf.h"
+	"SDL_mixer.h"
+	<cstdio>
+	<stdlib.h>
+	<cstring>
+	<string>
+	<iostream>
+	<time.h>
+	"objects.h"
+
+1278057011 /usr/include/SDL/SDL.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1278057011 /usr/include/SDL/SDL_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1278057011 /usr/include/SDL/SDL_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1278057011 /usr/include/SDL/SDL_config.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1278057011 /usr/include/SDL/SDL_platform.h
+
+1278057011 /usr/include/SDL/begin_code.h
+
+1278057011 /usr/include/SDL/close_code.h
+
+1278057011 /usr/include/SDL/SDL_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1278057011 /usr/include/SDL/SDL_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1278057011 /usr/include/SDL/SDL_endian.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1278057011 /usr/include/SDL/SDL_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1278057011 /usr/include/SDL/SDL_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1278057011 /usr/include/SDL/SDL_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1278057011 /usr/include/SDL/SDL_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1278057011 /usr/include/SDL/SDL_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1278057011 /usr/include/SDL/SDL_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1278057011 /usr/include/SDL/SDL_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1278057011 /usr/include/SDL/SDL_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1278057011 /usr/include/SDL/SDL_keysym.h
+
+1278057011 /usr/include/SDL/SDL_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1278057011 /usr/include/SDL/SDL_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1278057011 /usr/include/SDL/SDL_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1278057011 /usr/include/SDL/SDL_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1278057011 /usr/include/SDL/SDL_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1278057011 /usr/include/SDL/SDL_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1278057011 /usr/include/SDL/SDL_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1248940735 /usr/include/SDL/SDL_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1242077228 /usr/include/SDL/SDL_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1250558254 /usr/include/SDL/SDL_mixer.h
+	"SDL_types.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1247825454 /usr/include/SDL/SDL_types.h
+	"SDL_stdinc.h"
+
+1267298518 /home/jason/Desktop/c++/Teroids/objects.h
+	<SDL.h>
+	"SDL_image.h"
+	"SDL_mixer.h"
+	"SDL_ttf.h"
+	<SDL_rotozoom.h>
+	<cstdio>
+	<vector>
+	<iostream>
+	"engine.h"
+
+1266773429 /home/jason/Desktop/c++/Teroids/engin.h
+	<SDL.h>
+	"SDL_image.h"
+	"SDL_ttf.h"
+	"SDL_mixer.h"
+	"objects.h"
+	<vector>
+
+1267246256 source:/home/jason/Desktop/c++/Teroids/main.cpp
+	<SDL.h>
+	"SDL_image.h"
+	"SDL_ttf.h"
+	"SDL_mixer.h"
+	<cstdio>
+	<iostream>
+	"engine.h"
+	"objects.h"
+
+1267098222 source:/home/jason/Desktop/c++/Teroids/objects.cpp
+	<SDL.h>
+	"SDL_image.h"
+	"SDL_mixer.h"
+	"SDL_ttf.h"
+	<cstdio>
+	<vector>
+	<iostream>
+	"engine.h"
+
+1267283222 source:/home/jason/Desktop/c++/Teroids/engine.cpp
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+	<math.h>
+	<cstdio>
+	<cstring>
+	<fstream>
+	<iostream>
+	<stdlib.h>
+	<string>
+	<time.h>
+	"objects.h"
+
+1267243620 /home/jason/Desktop/c++/Teroids/engine.h
+	<SDL.h>
+	"SDL_image.h"
+	"SDL_ttf.h"
+	"SDL_mixer.h"
+	"objects.h"
+	<vector>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+	<math.h>
+	<cstdio>
+	<cstring>
+	<fstream>
+	<iostream>
+	<stdlib.h>
+	<string>
+	<time.h>
+	"objects.h"
+
+1253476998 /home/jason/Desktop/c++/Teroids//SDL_rotozoom.h
+	<math.h>
+	"SDL.h"
+
+1297980025 source:/home/jason/Files/Code/c++/Teroids/engine.cpp
+	<SDL/SDL.h>
+	"SDL/SDL_image.h"
+	<SDL/SDL_mixer.h>
+	<SDL/SDL_ttf.h>
+	<algorithm>
+	<math.h>
+	<cstdio>
+	<cstring>
+	<fstream>
+	<iostream>
+	<stdlib.h>
+	<string>
+	<time.h>
+	"collisions.h"
+	"error.h"
+	"map.h"
+	"objects.h"
+	"random.h"
+	"render.h"
+	"resources.h"
+	"sound.h"
+	"tdmath.h"
+	"objects.h"
+
+1297199486 /home/jason/Files/Code/c++/Teroids/objects.h
+	<SDL/SDL.h>
+	"SDL/SDL_image.h"
+	"SDL/SDL_mixer.h"
+	"SDL/SDL_ttf.h"
+	"SDL/SDL_rotozoom.h"
+	<cstdio>
+	<cmath>
+	<vector>
+	<iostream>
+	<istream>
+
+1241471171 /usr/include/SDL/SDL_rotozoom.h
+	<math.h>
+	"SDL.h"
+
+1296307779 /home/jason/Files/Code/c++/Teroids/engine.h
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_mixer.h>
+	<SDL/SDL_ttf.h>
+	<iostream>
+	"collisions.h"
+	"error.h"
+	"map.h"
+	"objects.h"
+	"random.h"
+	"render.h"
+	"resources.h"
+	"sound.h"
+	"tdmath.h"
+	"settings.h"
+
+1299370447 source:/home/jason/Files/Code/c++/Teroids/main.cpp
+	<SDL/SDL.h>
+	"SDL/SDL_image.h"
+	"SDL/SDL_ttf.h"
+	"SDL/SDL_mixer.h"
+	<cstdio>
+	<iostream>
+	<time.h>
+	<cmath>
+	"engine/engine.h"
+	"string/string.h"
+
+1297973415 source:/home/jason/Files/Code/c++/Teroids/objects.cpp
+	<SDL/SDL.h>
+	"SDL/SDL_image.h"
+	"SDL/SDL_mixer.h"
+	"SDL/SDL_ttf.h"
+	<cstdio>
+	<vector>
+	<iostream>
+	<string>
+	"error.h"
+	"objects.h"
+	"resources.h"
+	"string.h"
+	"tdmath.h"
+
+1267317480 source:/home/jason/Files/Code/c++/Teroids/SDL_framerate.c
+	"SDL_framerate.h"
+
+1267315555 /home/jason/Files/Code/c++/Teroids/SDL_framerate.h
+	"SDL.h"
+
+1267317481 source:/home/jason/Files/Code/c++/Teroids/SDL_gfxBlitFunc.c
+	"SDL_gfxBlitFunc.h"
+
+1267315555 /home/jason/Files/Code/c++/Teroids/SDL_gfxBlitFunc.h
+	<stdio.h>
+	<stdlib.h>
+	<SDL.h>
+	<SDL_video.h>
+
+1267317482 source:/home/jason/Files/Code/c++/Teroids/SDL_gfxPrimitives.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	"SDL_gfxPrimitives.h"
+	"SDL_gfxPrimitives_font.h"
+	<emmintrin.h>
+
+1267315555 /home/jason/Files/Code/c++/Teroids/SDL_gfxPrimitives.h
+	<math.h>
+	"SDL.h"
+
+1267315556 /home/jason/Files/Code/c++/Teroids/SDL_gfxPrimitives_font.h
+
+1267317482 source:/home/jason/Files/Code/c++/Teroids/SDL_imageFilter.c
+	<stdio.h>
+	<stdlib.h>
+	"SDL_imageFilter.h"
+
+1267315556 /home/jason/Files/Code/c++/Teroids/SDL_imageFilter.h
+
+1267317483 source:/home/jason/Files/Code/c++/Teroids/SDL_rotozoom.c
+	<windows.h>
+	<stdlib.h>
+	<string.h>
+	"SDL_rotozoom.h"
+
+1267315556 /home/jason/Files/Code/c++/Teroids/SDL_rotozoom.h
+	<math.h>
+	"SDL.h"
+
+1293234790 source:/home/jason/Files/Code/c++/Teroids/collisions.cpp
+	"engine.h"
+
+1267983550 /home/jason/Files/Code/c++/Teroids/collisions.h
+	"engine.h"
+
+1296304754 /home/jason/Files/Code/c++/Teroids/error.h
+	<iostream>
+	<exception>
+
+1297973502 /home/jason/Files/Code/c++/Teroids/map.h
+	"engine.h"
+	<iostream>
+
+1267983934 /home/jason/Files/Code/c++/Teroids/random.h
+	"engine.h"
+
+1296305592 /home/jason/Files/Code/c++/Teroids/render.h
+
+1297199411 /home/jason/Files/Code/c++/Teroids/resources.h
+	"engine.h"
+
+1267985394 /home/jason/Files/Code/c++/Teroids/sound.h
+	"engine.h"
+
+1292209299 /home/jason/Files/Code/c++/Teroids/tdmath.h
+
+1296304752 source:/home/jason/Files/Code/c++/Teroids/error.cpp
+
+1299270229 source:/home/jason/Files/Code/c++/Teroids/map.cpp
+	"engine.h"
+	<stdio.h>
+	<cstdlib>
+	<fstream>
+
+1267983938 source:/home/jason/Files/Code/c++/Teroids/random.cpp
+	"engine.h"
+
+1296305592 source:/home/jason/Files/Code/c++/Teroids/render.cpp
+	"engine.h"
+
+1297973790 source:/home/jason/Files/Code/c++/Teroids/resources.cpp
+	"engine.h"
+	"render.h"
+
+1292337877 source:/home/jason/Files/Code/c++/Teroids/sound.cpp
+	"engine.h"
+
+1292209299 source:/home/jason/Files/Code/c++/Teroids/tdmath.cpp
+	<sstream>
+	"engine.h"
+
+1297973341 /home/jason/Files/Code/c++/Teroids/string.h
+
+1297973341 source:/home/jason/Files/Code/c++/Teroids/string.cpp
+	<iostream>
+	<sstream>
+	<stdlib.h>
+	<string>
+
+1296309285 /home/jason/Files/Code/c++/Teroids/settings.h
+
+1299273719 source:/home/jason/Files/Code/c++/Teroids/scr/collision/collision.cpp
+	"engine/engine.h"
+
+1299371375 /home/jason/Files/Code/c++/Teroids/scr/engine/engine.h
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_mixer.h>
+	<SDL/SDL_ttf.h>
+	"sdl_gfx/SDL_framerate.h"
+	"sdl_gfx/SDL_gfxBlitFunc.h"
+	"sdl_gfx/SDL_gfxPrimitives.h"
+	"sdl_gfx/SDL_gfxPrimitives_font.h"
+	"sdl_gfx/SDL_imageFilter.h"
+	"sdl_gfx/SDL_rotozoom.h"
+	<iostream>
+	"collision/collision.h"
+	"error/error.h"
+	"map/map.h"
+	"object/objects.h"
+	"math/random.h"
+	"render/render.h"
+	"resource/resources.h"
+	"sound/sound.h"
+	"string/string.h"
+	"math/tdmath.h"
+	"settings.h"
+
+1299273898 /home/jason/Files/Code/c++/Teroids/scr/collision/collision.h
+	"engine/engine.h"
+
+1296304754 /home/jason/Files/Code/c++/Teroids/scr/error/error.h
+	<iostream>
+	<exception>
+
+1299288318 /home/jason/Files/Code/c++/Teroids/scr/map/map.h
+	"engine/engine.h"
+	<iostream>
+
+1299373766 /home/jason/Files/Code/c++/Teroids/scr/object/objects.h
+	"engine/engine.h"
+	"object/obj_gameobject.h"
+	<cstdio>
+	<cmath>
+	<vector>
+	<iostream>
+	<istream>
+
+1299286568 /home/jason/Files/Code/c++/Teroids/scr/math/random.h
+	"engine/engine.h"
+
+1296305592 /home/jason/Files/Code/c++/Teroids/scr/render/render.h
+
+1299286606 /home/jason/Files/Code/c++/Teroids/scr/resource/resources.h
+	"engine/engine.h"
+
+1299286613 /home/jason/Files/Code/c++/Teroids/scr/sound/sound.h
+	"engine/engine.h"
+
+1292209299 /home/jason/Files/Code/c++/Teroids/scr/math/tdmath.h
+
+1296309285 /home/jason/Files/Code/c++/Teroids/scr/settings.h
+
+1299371108 source:/home/jason/Files/Code/c++/Teroids/scr/engine/engine.cpp
+	"SDL/SDL_image.h"
+	<SDL/SDL_mixer.h>
+	<SDL/SDL_ttf.h>
+	<algorithm>
+	<math.h>
+	<cstdio>
+	<cstring>
+	<fstream>
+	<iostream>
+	<stdlib.h>
+	<string>
+	<time.h>
+	"engine/engine.h"
+
+1299288408 /home/jason/Files/Code/c++/Teroids/scr/string
+
+1296304752 source:/home/jason/Files/Code/c++/Teroids/scr/error/error.cpp
+
+1299370447 source:/home/jason/Files/Code/c++/Teroids/scr/main.cpp
+	<SDL/SDL.h>
+	"SDL/SDL_image.h"
+	"SDL/SDL_ttf.h"
+	"SDL/SDL_mixer.h"
+	<cstdio>
+	<iostream>
+	<time.h>
+	<cmath>
+	"engine/engine.h"
+	"string/string.h"
+
+1299288318 /home/jason/Files/Code/c++/Teroids/scr/string/string.h
+
+1299288358 source:/home/jason/Files/Code/c++/Teroids/scr/map/map.cpp
+	"engine/engine.h"
+	<stdio.h>
+	<cstdlib>
+	<fstream>
+
+1299286680 source:/home/jason/Files/Code/c++/Teroids/scr/math/random.cpp
+	"engine/engine.h"
+
+1299286686 source:/home/jason/Files/Code/c++/Teroids/scr/math/tdmath.cpp
+	<sstream>
+	"engine/engine.h"
+
+1299373683 source:/home/jason/Files/Code/c++/Teroids/scr/object/obj_gameobject.cpp
+	"engine/engine.h"
+	"obj_gameobject.h"
+
+1299373714 source:/home/jason/Files/Code/c++/Teroids/scr/object/objects.cpp
+	"SDL/SDL_image.h"
+	"SDL/SDL_mixer.h"
+	"SDL/SDL_ttf.h"
+	<cstdio>
+	<vector>
+	<iostream>
+	<string>
+	"engine/engine.h"
+	"object/objects.h"
+	"resource/resources.h"
+	"string/string.h"
+	"math/tdmath.h"
+
+1299286712 source:/home/jason/Files/Code/c++/Teroids/scr/render/render.cpp
+	"engine/engine.h"
+
+1299286720 source:/home/jason/Files/Code/c++/Teroids/scr/resource/resources.cpp
+	"engine/engine.h"
+	"render/render.h"
+
+1267317480 source:/home/jason/Files/Code/c++/Teroids/scr/sdl_gfx/SDL_framerate.c
+	"SDL_framerate.h"
+
+1267315554 /home/jason/Files/Code/c++/Teroids/scr/sdl_gfx/SDL_framerate.h
+	"SDL.h"
+
+1267317480 source:/home/jason/Files/Code/c++/Teroids/scr/sdl_gfx/SDL_gfxBlitFunc.c
+	"SDL_gfxBlitFunc.h"
+
+1267315554 /home/jason/Files/Code/c++/Teroids/scr/sdl_gfx/SDL_gfxBlitFunc.h
+	<stdio.h>
+	<stdlib.h>
+	<SDL.h>
+	<SDL_video.h>
+
+1267317482 source:/home/jason/Files/Code/c++/Teroids/scr/sdl_gfx/SDL_gfxPrimitives.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	"SDL_gfxPrimitives.h"
+	"SDL_gfxPrimitives_font.h"
+	<emmintrin.h>
+
+1267315554 /home/jason/Files/Code/c++/Teroids/scr/sdl_gfx/SDL_gfxPrimitives.h
+	<math.h>
+	"SDL.h"
+
+1299373845 /home/jason/Files/Code/c++/Teroids/scr/sdl_gfx/SDL_gfxPrimitives_font.h
+
+1267317482 source:/home/jason/Files/Code/c++/Teroids/scr/sdl_gfx/SDL_imageFilter.c
+	<stdio.h>
+	<stdlib.h>
+	"SDL_imageFilter.h"
+
+1267315556 /home/jason/Files/Code/c++/Teroids/scr/sdl_gfx/SDL_imageFilter.h
+
+1267317482 source:/home/jason/Files/Code/c++/Teroids/scr/sdl_gfx/SDL_rotozoom.c
+	<windows.h>
+	<stdlib.h>
+	<string.h>
+	"SDL_rotozoom.h"
+
+1267315556 /home/jason/Files/Code/c++/Teroids/scr/sdl_gfx/SDL_rotozoom.h
+	<math.h>
+	"SDL.h"
+
+1299286729 source:/home/jason/Files/Code/c++/Teroids/scr/sound/sound.cpp
+	"engine/engine.h"
+
+1299288406 source:/home/jason/Files/Code/c++/Teroids/scr/string/string.cpp
+	<iostream>
+	<sstream>
+	<fstream>
+	<stdlib.h>
+	<string>
+
+1299372168 /home/jason/Files/Code/c++/Teroids/scr/object/obj_gameobject.h
+	"engine/engine.h"
+
+1300146596 source:/home/jason/Files/Code/c++/Teroids/collision/collision.cpp
+	"engine/engine.h"
+
+1300145884 /home/jason/Files/Code/c++/Teroids//engine/engine.h
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_mixer.h>
+	<SDL/SDL_ttf.h>
+	"sdl_gfx/SDL_framerate.h"
+	"sdl_gfx/SDL_rotozoom.h"
+	<iostream>
+	"collision/collision.h"
+	"error/error.h"
+	"engine/engine_data.h"
+	"map/map.h"
+	"object/objects.h"
+	"math/random.h"
+	"render/render.h"
+	"resource/resources.h"
+	"sound/sound.h"
+	"string/string.h"
+	"math/tdmath.h"
+	"settings.h"
+
+1267315554 /home/jason/Files/Code/c++/Teroids//sdl_gfx/SDL_framerate.h
+	"SDL.h"
+
+1267315554 /home/jason/Files/Code/c++/Teroids//sdl_gfx/SDL_gfxBlitFunc.h
+	<stdio.h>
+	<stdlib.h>
+	<SDL.h>
+	<SDL_video.h>
+
+1267315554 /home/jason/Files/Code/c++/Teroids//sdl_gfx/SDL_gfxPrimitives.h
+	<math.h>
+	"SDL.h"
+
+1299373845 /home/jason/Files/Code/c++/Teroids//sdl_gfx/SDL_gfxPrimitives_font.h
+
+1267315556 /home/jason/Files/Code/c++/Teroids//sdl_gfx/SDL_imageFilter.h
+
+1267315556 /home/jason/Files/Code/c++/Teroids//sdl_gfx/SDL_rotozoom.h
+	<math.h>
+	"SDL.h"
+
+1299273898 /home/jason/Files/Code/c++/Teroids//collision/collision.h
+	"engine/engine.h"
+
+1296304754 /home/jason/Files/Code/c++/Teroids//error/error.h
+	<iostream>
+	<exception>
+
+1299288318 /home/jason/Files/Code/c++/Teroids//map/map.h
+	"engine/engine.h"
+	<iostream>
+
+1300145932 /home/jason/Files/Code/c++/Teroids//object/objects.h
+	"engine/engine.h"
+	"object/obj_gameobject.h"
+	<vector>
+
+1299372168 /home/jason/Files/Code/c++/Teroids//object/obj_gameobject.h
+	"engine/engine.h"
+
+1299286568 /home/jason/Files/Code/c++/Teroids//math/random.h
+	"engine/engine.h"
+
+1296305592 /home/jason/Files/Code/c++/Teroids//render/render.h
+
+1300148473 /home/jason/Files/Code/c++/Teroids//resource/resources.h
+	"engine/engine.h"
+
+1299286613 /home/jason/Files/Code/c++/Teroids//sound/sound.h
+	"engine/engine.h"
+
+1299288318 /home/jason/Files/Code/c++/Teroids//string/string.h
+
+1292209299 /home/jason/Files/Code/c++/Teroids//math/tdmath.h
+
+1296309285 /home/jason/Files/Code/c++/Teroids//settings.h
+
+1300149261 source:/home/jason/Files/Code/c++/Teroids/engine/engine.cpp
+	"SDL/SDL_image.h"
+	<SDL/SDL_mixer.h>
+	<SDL/SDL_ttf.h>
+	<algorithm>
+	<math.h>
+	<cstdio>
+	<cstring>
+	<fstream>
+	<istream>
+	<iostream>
+	<stdlib.h>
+	<string>
+	<time.h>
+	<vector>
+	"engine/engine.h"
+
+1300153680 /home/jason/Files/Code/c++/Teroids//string
+
+1296304752 source:/home/jason/Files/Code/c++/Teroids/error/error.cpp
+
+1300145884 /home/jason/Files/Code/c++/Teroids/engine/engine.h
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_mixer.h>
+	<SDL/SDL_ttf.h>
+	"sdl_gfx/SDL_framerate.h"
+	"sdl_gfx/SDL_rotozoom.h"
+	<iostream>
+	"collision/collision.h"
+	"error/error.h"
+	"engine/engine_data.h"
+	"map/map.h"
+	"object/objects.h"
+	"math/random.h"
+	"render/render.h"
+	"resource/resources.h"
+	"sound/sound.h"
+	"string/string.h"
+	"math/tdmath.h"
+	"settings.h"
+
+1299288318 /home/jason/Files/Code/c++/Teroids/string/string.h
+
+1300146783 source:/home/jason/Files/Code/c++/Teroids/map/map.cpp
+	"engine/engine.h"
+	<stdio.h>
+	<cstdlib>
+	<fstream>
+
+1299286680 source:/home/jason/Files/Code/c++/Teroids/math/random.cpp
+	"engine/engine.h"
+
+1299286686 source:/home/jason/Files/Code/c++/Teroids/math/tdmath.cpp
+	<sstream>
+	"engine/engine.h"
+
+1300146795 source:/home/jason/Files/Code/c++/Teroids/object/obj_gameobject.cpp
+	"engine/engine.h"
+	"obj_gameobject.h"
+
+1299372168 /home/jason/Files/Code/c++/Teroids/object/obj_gameobject.h
+	"engine/engine.h"
+
+1300146826 source:/home/jason/Files/Code/c++/Teroids/object/objects.cpp
+	<cstdio>
+	<vector>
+	"engine/engine.h"
+
+1299286712 source:/home/jason/Files/Code/c++/Teroids/render/render.cpp
+	"engine/engine.h"
+
+1300149695 source:/home/jason/Files/Code/c++/Teroids/resource/resources.cpp
+	"engine/engine.h"
+	"render/render.h"
+
+1267317480 source:/home/jason/Files/Code/c++/Teroids/sdl_gfx/SDL_framerate.c
+	"SDL_framerate.h"
+
+1267315554 /home/jason/Files/Code/c++/Teroids/sdl_gfx/SDL_framerate.h
+	"SDL.h"
+
+1267317480 source:/home/jason/Files/Code/c++/Teroids/sdl_gfx/SDL_gfxBlitFunc.c
+	"SDL_gfxBlitFunc.h"
+
+1267315554 /home/jason/Files/Code/c++/Teroids/sdl_gfx/SDL_gfxBlitFunc.h
+	<stdio.h>
+	<stdlib.h>
+	<SDL.h>
+	<SDL_video.h>
+
+1267317482 source:/home/jason/Files/Code/c++/Teroids/sdl_gfx/SDL_gfxPrimitives.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	"SDL_gfxPrimitives.h"
+	"SDL_gfxPrimitives_font.h"
+	<emmintrin.h>
+
+1267315554 /home/jason/Files/Code/c++/Teroids/sdl_gfx/SDL_gfxPrimitives.h
+	<math.h>
+	"SDL.h"
+
+1299373845 /home/jason/Files/Code/c++/Teroids/sdl_gfx/SDL_gfxPrimitives_font.h
+
+1267317482 source:/home/jason/Files/Code/c++/Teroids/sdl_gfx/SDL_imageFilter.c
+	<stdio.h>
+	<stdlib.h>
+	"SDL_imageFilter.h"
+
+1267315556 /home/jason/Files/Code/c++/Teroids/sdl_gfx/SDL_imageFilter.h
+
+1267317482 source:/home/jason/Files/Code/c++/Teroids/sdl_gfx/SDL_rotozoom.c
+	<windows.h>
+	<stdlib.h>
+	<string.h>
+	"SDL_rotozoom.h"
+
+1267315556 /home/jason/Files/Code/c++/Teroids/sdl_gfx/SDL_rotozoom.h
+	<math.h>
+	"SDL.h"
+
+1300147110 source:/home/jason/Files/Code/c++/Teroids/sound/sound.cpp
+	"engine/engine.h"
+
+1299288406 source:/home/jason/Files/Code/c++/Teroids/string/string.cpp
+	<iostream>
+	<sstream>
+	<fstream>
+	<stdlib.h>
+	<string>
+
+1300146565 /home/jason/Files/Code/c++/Teroids//engine/engine_data.h
+	"engine/engine.h"
+	"object/obj_gameobject.h"
+	<vector>
+
+1300149607 source:/home/jason/Files/Code/c++/Teroids/engine/engine_data.cpp
+	"engine/engine.h"
+

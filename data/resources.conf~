@@ -1,0 +1,20 @@
+/*resource configuration file;
+
+Types
+-------
+	image
+	sound
+	music
+	font
+	map
+
+example (everything is **whitespace sensitive**)
+-------
+	type,path to resource,id for resource;
+	image,./data/image/foo.png,foo;
+
+FILE CURRENTLY NOT IN USE ... TO BE IMPLEMENTED BY FEB 12 2011
+*/
+
+image,./data/image/bubble_background.png,bubble_background;
+

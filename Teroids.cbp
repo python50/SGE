@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Teroids" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Teroids" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="/home/jason/Files/Code/c++/Teroids" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Teroids" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="/home/jason/Files/Code/c++/Teroids" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="Optimized">
+				<Option output="bin/Optimized/Teroids" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="/home/jason/Files/Code/c++/Teroids" />
+				<Option object_output="obj/Optimized" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Compiler>
+					<Add option="-O3" />
+					<Add option="-O2" />
+					<Add option="-O1" />
+					<Add option="-O" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="`sdl-config --cflags`" />
+			<Add directory="/home/jason/Files/Code/c++/Teroids/scr" />
+			<Add directory="/home/jason/Files/Code/c++/Teroids/" />
+		</Compiler>
+		<ResourceCompiler>
+			<Add directory="/home/jason/Files/Code/c++/Teroids/scr/" />
+			<Add directory="/home/jason/Files/Code/c++/Teroids/" />
+		</ResourceCompiler>
+		<Linker>
+			<Add option="-lSDL_image" />
+			<Add option="-lSDL_ttf" />
+			<Add option="-lSDL_mixer" />
+			<Add option="-lSDL_gfx" />
+			<Add option="`sdl-config --libs`" />
+			<Add directory="/home/jason/Files/Code/c++/Teroids/scr" />
+			<Add directory="/home/jason/Files/Code/c++/Teroids/" />
+		</Linker>
+		<Unit filename="collision/collision.cpp" />
+		<Unit filename="collision/collision.h" />
+		<Unit filename="engine/engine.cpp" />
+		<Unit filename="engine/engine.h" />
+		<Unit filename="error/error.cpp" />
+		<Unit filename="error/error.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="map/map.cpp" />
+		<Unit filename="map/map.h" />
+		<Unit filename="math/random.cpp" />
+		<Unit filename="math/random.h" />
+		<Unit filename="math/tdmath.cpp" />
+		<Unit filename="math/tdmath.h" />
+		<Unit filename="object/obj_gameobject.cpp" />
+		<Unit filename="object/obj_gameobject.h" />
+		<Unit filename="object/objects.cpp" />
+		<Unit filename="object/objects.h" />
+		<Unit filename="render/render.cpp" />
+		<Unit filename="render/render.h" />
+		<Unit filename="resource/resources.cpp" />
+		<Unit filename="resource/resources.h" />
+		<Unit filename="sdl_gfx/SDL_framerate.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sdl_gfx/SDL_framerate.h" />
+		<Unit filename="sdl_gfx/SDL_gfxBlitFunc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sdl_gfx/SDL_gfxBlitFunc.h" />
+		<Unit filename="sdl_gfx/SDL_gfxPrimitives.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sdl_gfx/SDL_gfxPrimitives.h" />
+		<Unit filename="sdl_gfx/SDL_gfxPrimitives_font.h" />
+		<Unit filename="sdl_gfx/SDL_imageFilter.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sdl_gfx/SDL_imageFilter.h" />
+		<Unit filename="sdl_gfx/SDL_rotozoom.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sdl_gfx/SDL_rotozoom.h" />
+		<Unit filename="settings.h" />
+		<Unit filename="sound/sound.cpp" />
+		<Unit filename="sound/sound.h" />
+		<Unit filename="string/string.cpp" />
+		<Unit filename="string/string.h" />
+		<Unit filename="version.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+			<AutoVersioning>
+				<Scheme minor_max="10" build_max="0" rev_max="0" rev_rand_max="10" build_times_to_increment_minor="100" />
+				<Settings autoincrement="1" date_declarations="1" do_auto_increment="0" ask_to_increment="0" language="C++" svn="0" svn_directory="" header_path="version.h" />
+				<Changes_Log show_changes_editor="0" app_title="released version %M.%m.%b of %p" changeslog_path="ChangesLog.txt" />
+				<Code header_guard="VERSION_H" namespace="AutoVersion" prefix="" />
+			</AutoVersioning>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,7 @@
+01 February 2011
+   released version 1.0.1 of Teroids
+
+     Change log:
+        -
+        -
+

@@ -1,0 +1,9 @@
+/*Game Config *whitespace sensitive
+FILE CURRENTLY NOT IN USE, TO BE IMPLMENTED BY FEB 12 2011
+*/
+sound,255;
+music,255;/*volume 0 -255*/
+resoulution,640,480;/*width , height*/
+framerate,60;/*frames per second*/
+joystick,1;/*1 true 0 false*/
+control_mode,1;/*0 keyboard or 1 joystick*/
